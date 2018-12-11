@@ -1,0 +1,26 @@
+Iteration case for Fibonacci series for integer 20
+
+How many disks?: 40
+{-
+I used stackover flow to get the answer. The link is below.
+https://stackoverflow.com/questions/2870684/how-does-this-iterative-tower-of-hanoi-work-c
+-}
+2.313400 seconds for 20 disk
+
+Memory usage: 790528 kilobytes
+
+
+
+Recursion case for Fibonacci series for integer 20
+
+
+How many disks?: 40
+
+2.254974 seconds for 20 disks
+
+Memory usage: 798720 kilobytes
+
+
+
+This is so because iterative loops fit typical computer systems better at the hardware level: at the machine code level, a loop is just a test and a conditional jump, whereas recursion involves pushing a stack frame, jumping, returning, and popping back from the stack.
+As you can see, the memory usage is not the same because the sheer lines of codes matters.

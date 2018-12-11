@@ -1,0 +1,24 @@
+Recursion case for Fibonacci series for integer 40
+
+
+Enter the Nth term: 40
+
+0.881826 seconds to execute
+ 
+Memory usage: 790528 kilobytes
+
+
+
+Iterative case for Fibonacci series for integer 40
+
+Enter the Nth terms: 40
+
+0.000079 seconds to execute 
+
+Memory usage: 790528 kilobytes
+
+
+
+
+This is so because iterative loops fit typical computer systems better at the hardware level: at the machine code level, a loop is just a test and a conditional jump, whereas recursion involves pushing a stack frame, jumping, returning, and popping back from the stack.
+As you can see, the memory usage is the same.
